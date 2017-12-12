@@ -1,5 +1,5 @@
 from decryption.cesear import *
-print 1
+print exa_txt("172")
 
 
 
