@@ -1,5 +1,7 @@
 from decryption.cesear import *
-print exa_txt("172")
+from decryption.filtres import *
+print exa_txt("4242")
+print change("a",1)
 
 
 

@@ -1,7 +1,3 @@
-def exa_txt(txt):
-    return txt.decode('hex')
-
-
 def decaltxt(txt):
     ret = ""
     for i in txt:
