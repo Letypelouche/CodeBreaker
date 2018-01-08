@@ -8,6 +8,6 @@ def recurente(txt):
             rtn = unichr(i+97)
             tmp_nb = txt.count(unichr(i+97))
         replace(txt,unichr(i+97),"")
-        if tmp_nb > count(txt):
+        if tmp_nb > len(txt):
             break
     return rtn
