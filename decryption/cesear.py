@@ -1,10 +1,12 @@
-
+# coding: utf-8
 
 def decaltxt(txt,decal):
     # fonction pour retrouver un texte avec dealage de x
     ret = ""
     for i in txt:
-        if (ord(i) < 91 & ord(i) > 64) | (ord(i) > 96 & ord(i) < 123):
+        val = ord(i)
+        print val
+        if (val in range(65, 90)) | (val in range(97, 122)):
             print(i)
             print(ord(i))
             ret = ret + change(i, decal)

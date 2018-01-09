@@ -4,4 +4,5 @@ decalage du tewte césar => fait
 dire si une phrase est française => ok
 recherche de lettre la plus frequante => ok
 main pour decryptage : routine pour voir si une phrase est française
-decodage vinege
+decodage vinege : a faire
+gestion des caractère spéciaux : FAIT

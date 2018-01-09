@@ -1,3 +1,5 @@
+# coding: utf-8
+
 from decryption.cesear import *
 from decryption.filtres import *
 from decryption.comparaison import *

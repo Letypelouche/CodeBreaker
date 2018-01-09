@@ -1,6 +1,6 @@
 from math import *
 
-
+# donne un pourcentage de mot concordant avec le texte témoins
 def compare(txt):
     cpt_mot = 0.0
     cpt_percent = 0.0
@@ -14,6 +14,6 @@ def compare(txt):
                     break
     return trunc((cpt_percent/cpt_mot)*100)
 
-
+# retourne si le pourcentage de vraisemblabilité est au dessus de 5
 def fra(txt):
     return 5 < compare(txt)
